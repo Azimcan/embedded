@@ -130,8 +130,7 @@ tail -f uartoutput.txt
 
 - Terminal 4
 ```
-riscv64-unknown-elf-gdb -ex 'set remotetimeout 10' -ex 'target remote
-:3333' -ex load -ex 'break main' hello.elf
+riscv64-unknown-elf-gdb -ex 'set remotetimeout 10' -ex 'target remote:3333' -ex load -ex 'break main' hello.elf
 ```
 
 # EK:
