@@ -1,8 +1,3 @@
-https://github.com/mupq/pqriscv
-
-https://github.com/SpinalHDL/openocd_riscv
-
-
 # sbt kurulum
 ```
 echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
@@ -138,3 +133,10 @@ tail -f uartoutput.txt
 riscv64-unknown-elf-gdb -ex 'set remotetimeout 10' -ex 'target remote
 :3333' -ex load -ex 'break main' hello.elf
 ```
+
+#EK:
+https://github.com/mupq/pqriscv
+
+https://github.com/SpinalHDL/openocd_riscv
+
+https://ubuntu.pkgs.org/20.04/ubuntu-universe-armhf/gcc-riscv64-unknown-elf_9.3.0-0ubuntu1_armhf.deb.html
