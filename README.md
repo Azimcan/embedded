@@ -134,7 +134,7 @@ riscv64-unknown-elf-gdb -ex 'set remotetimeout 10' -ex 'target remote
 :3333' -ex load -ex 'break main' hello.elf
 ```
 
-#EK:
+# EK:
 https://github.com/mupq/pqriscv
 
 https://github.com/SpinalHDL/openocd_riscv
